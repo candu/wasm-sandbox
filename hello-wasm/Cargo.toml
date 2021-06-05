@@ -1,0 +1,13 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+authors = ["Evan Savage <evan@savageinter.net>"]
+description = "A sample project with wasm-pack"
+repository = "https://github.com/candu/wasm-sandbox"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
